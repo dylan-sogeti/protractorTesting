@@ -1,3 +1,6 @@
 exports.config = {
-    specs: ['elementsTest.js']
+    specs: ['elementsTest.js'],
+    suites: {
+        Smoke : ['alerts.js', 'dropDown.js']
+    }
 }
