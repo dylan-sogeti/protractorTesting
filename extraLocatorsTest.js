@@ -4,10 +4,10 @@ describe('Page Object Mechanism Demo', function() {
         locators.getURL();
     });
     it('Work with variable locators', function() {
-        locators.firstInput.sendKeys("3");
-        locators.secondInput.sendKeys("37");
+        locators.firstInput.sendKeys("41");
+        locators.secondInput.sendKeys("67");
         locators.goButton.click();
-        expect(locators.result.getText()).toBe("40");
+        expect(locators.result.getText()).toBe("108");
         locators.result.getText().then(function(text) {
             console.log(text)
         })
