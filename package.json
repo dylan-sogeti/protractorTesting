@@ -1,0 +1,17 @@
+{
+  "name": "understanding_version_control_system_git",
+  "version": "1.0.0",
+  "description": "Learning to work with Version Control Systems, like GIT",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "7.0.0",
+    "jasmine-data-provider": "2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver-update" : "./node_modules/.bin/webdriver-manager update",
+    "protractor" : "./node_modules/.bin/protractor configuration.js"
+  },
+  "author": "Dylan Cremers",
+  "license": "ISC"
+}
